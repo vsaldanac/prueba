@@ -1,0 +1,151 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 37pt;
+    margin-left: 15%;
+}
+
+#navbarNav{
+    margin-right: 15%;
+}
+
+header{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#img_principal{
+    width: 100%;
+}
+
+.principal_button{
+    border-color: #DDDDDD;
+}
+
+hr{
+    border-style: solid;
+    border-color: #000000;
+}
+
+#header_title{
+    font-weight: 700;
+}
+
+#carousel{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.carousel-indicators li{
+    background-color: #373A3C;
+    width: 13pt;
+    height: 13pt;
+    border-radius: 100%;
+}
+
+.carousel-indicators{
+    bottom: -50%;
+}
+
+
+#hr_margin{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 6%;
+}
+
+#instructions{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+
+h2{
+    text-align: center;
+    font-weight: 700;
+    color: #373A3C;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+#cards{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card{
+    color: #373A3C;
+    margin-bottom: 5%;
+}
+
+.card-title{
+    font-weight: 700;
+}
+
+#newsletter{
+    font-weight: 700;
+    font-size: 30pt;
+}
+
+.pink{
+    background-color: #DC3545;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 8%;
+    padding-bottom: 12%;
+}
+
+#newsletter_second{
+    font-size: 20pt;
+}
+
+#newsletter_ricomida{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+.newsletter_button{
+    border-color: #ffffff;
+    color: #ffffff;
+    font-size: 10pt;
+    background-color: #DC3545;
+}
+
+footer{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 37pt;
+    color: #ffffff;
+    background-color: #373A3C;
+}
+
+@media screen and (min-width:320px) and (max-width:768px){
+    header{
+        text-align: center;
+    }
+
+    #header_title{
+        font-size: 20pt;
+    }
+
+    .principal_button{
+        font-size: 8pt;
+    }
+
+    #newsletter{
+        font-size: 20pt;
+    }
+
+    #newsletter_second{
+        font-size: 15pt;
+    }
+}
